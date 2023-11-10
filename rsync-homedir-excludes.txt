@@ -15,9 +15,30 @@
 # (uncomment the files you don't need)        #
 ###############################################
 
-#.android
-#.AndroidStudio*/
-#Android/Sdk
+# ## AOMogol Eklenenler  ##########################
+
+.anydesk
+.local/share/digikam/
+.pub-cache
+
+iso
+Downloads/*.iso
+Downloads/*/*.iso
+Downloads/*/*/*.iso
+
+#Thorium Browser :
+.config/thorium/ShaderCache
+.config/thorium/*/Local Storage
+.config/thorium/*/Session Storage
+.config/thorium/*/Application Cache
+.config/thorium/*/History Index *
+.config/thorium/*/Service Worker/CacheStorage
+
+# ## ################################################
+
+.android
+.AndroidStudio*/
+Android/Sdk
 #.gradle
 #.gvm
 #.grails/
@@ -65,10 +86,10 @@
 #/Movies
 #
 ## some history files
-#.python_history
-#.bash_history
-#.zsh_history
-#.mysql_history
+.python_history
+.bash_history
+.zsh_history
+.mysql_history
 #
 ## Python eggs
 #.local/lib/python*
@@ -373,9 +394,24 @@ nohup.out
 # VS Code
 .vscode-oss/extensions/*
 .vscode/extensions/*
+.config/Code - OSS/blob_storage/
+.config/Code - OSS/GPUCache/
 .config/Code - OSS/logs/
+.config/Code/blob_storage/
+.config/Code/GPUCache/
 .config/Code/logs/
 .config/Code/CachedData/*
+
+####################################
+###        aom Eklenenler
+.config/Code/User/globalStorage
+.config/Code/CachedExtensionVSIXs
+####################################
+
+# MS Teams
+.config/Microsoft/Microsoft Teams/Application Cache
+.config/Microsoft/Microsoft Teams/Cache
+.config/Microsoft/Microsoft Teams/GPUCache
 
 # VS Codium
 .config/VSCodium/CachedExtensionVSIXs
